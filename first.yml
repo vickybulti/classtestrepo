@@ -18,6 +18,6 @@
 
     - name: create the file
       copy:
-        content: "welcome jenkins ansible"
+        src: index.html
         dest: /var/www/html/
 
